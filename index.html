@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elif's Hobby Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+<h1 class="title">What is Paragliding</h1>
+
+</header>
+
+<body>
+    <div id="currentTime" class="currenttime"></div>
+    <script>
+      const element = document.getElementById('currentTime');
+      
+      setInterval(function () {
+        const currentDate = new Date();
+        element.innerText = currentDate.getDate() + "/" + currentDate.getMonth() + "/"+ currentDate.getFullYear() + " " + " -" +currentDate.getHours() + ":" + currentDate.getMinutes() + ":" + currentDate.getSeconds();
+      }, 1000);
+    </script>
+    <div class="main">
+        <div class="explanations">
+            <div class="explanation">
+                <p>
+                The short answer is paragliding an adventure sport using a modified parachute. 
+                The lightweight, inflatable wing, is motorless and can be foot-launched with the opportunity to glide or climb upwards.
+                It's a sport that combines the thrills of flying with the peacefulness of soaring through the sky. 
+                It's a great way to experience nature, and it can be enjoyed by people of all ages and abilities.</p>
+            </div>
+            <div class="explanation">
+                <p>
+                Paragliding is a form of flying that uses a special parachute-like wing. 
+                The wing is designed to catch air and lift the pilot off the ground. 
+                This makes it possible for pilots to fly very low to the ground, or even mountain tops.</p>
+            </div>
+            <div class="explanation"> 
+                <p>   
+                To paraglide, you'll need some basic equipment. 
+                You'll need a paragliding wing, a harness, a helmet, and some training. 
+                You can find all of this equipment and more at a local paragliding shop.</p>
+            </div>
+            <div class="explanation"> 
+                You can watch paragliding video <a href="https://www.youtube.com/watch?v=gemxJkYxTsk&ab_channel=FlyWithGreg">here</a></div>
+        </div>
+        <div>
+            
+            <ul><h4> The 5 Best Places in the World to Go Paragliding</h4>
+                <li>Queenstown, New Zealand</li>
+                <li>Bir Billing, Himachal Pradesh, India</li>
+                <li>Pokhara, Nepal</li>
+                <li>Gudauri, Georgia</li>
+                <li>Ölüdeniz, Turkey</li>
+
+            </ul>
+
+        </div>
+        <div class="images">
+            <div class="image">
+                <img src="pa.jpg" alt="Parachute 1" width="400" height="320">
+            </div>
+            <div class="image">
+                <img src="pa2.jpg" alt="Parachute 2" width="400" height="320">
+            </div>
+            <div class="image">
+                <img src="pa3.jpg" alt="Parachute 3" width="400" height="320">
+            </div>
+            <div class="image">
+                <img src="pa4.jpg" alt="Parachute 4" width="400" height="320">
+            </div>
+            <div class="image">
+                <img src="pa5.webp" alt="Parachute 5" width="400" height="320">
+            </div>
+            <div class="image">
+                <img src="pa6.jpg" alt="Parachute 6" width="400" height="320">
+            </div>
+            <div class="image">
+                <img src="pa7.jpg" alt="Parachute 7" width="400" height="320">
+            </div>
+            <div class="image">
+                <img src="pa8.jpg" alt="Parachute 8" width="400" height="320">
+            </div>
+
+        </div>
+    </div>
+</body>
+<div class="clean"></div>
+<footer>
+    <div class="footer">Founders and Coders - Copyright © 2023 - Elif GULER </div>
+</footer>
+</html>

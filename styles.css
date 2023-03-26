@@ -1,0 +1,54 @@
+.main{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.title{
+    background-color:rgb(52, 120, 131);
+    padding: 30px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.currenttime{
+    float:right;
+    font-size: 20px;
+    color:rgb(52, 120, 131);
+}
+.explanation{
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.explanations{
+    margin-top: 70px;
+    border-style: solid;
+}
+
+h4{
+    color: darkblue;
+
+}
+
+.image{
+float: left;
+padding: 20px;
+margin-left: 20px;
+}
+.clean{
+    clear: both;
+  }
+.footer{
+    background-color:rgb(52, 120, 131);
+    padding: 30px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;  
+    border-radius: 50%;  
+}
